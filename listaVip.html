@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel = "stylesheet" href="style.css">
+    
+    <title>Lista Vip</title>
+
+</head>
+<body>
+<div class="lista">
+    <h1>Lista VIP</h1>
+    <h2>Bem vindo a festa da Família Toma</h2>
+
+    <section class="confirmar">
+        
+
+        <div>
+            <label>Digite seu nome</label>
+            <input type ="text" id="nome" name="nome">
+        
+        <div>
+            <label>Quem te convidou para a festa?</label>
+            <input type ="text" id="verificarNome()" name= "nome">
+        </div>
+        
+        <button class="botao" onclick="verificarEntrada()"> Verificar se posso entrar </button>
+
+        <p>Você está permitido a entrar?</p>
+
+        <p id="PermissaoDeEntrada">Pesquisando...</p>
+    </section>
+</div>
+
+</body>
+<script src="listaVip.js"></script>
+</html>
+
